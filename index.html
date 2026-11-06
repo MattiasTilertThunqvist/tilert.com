@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="sv">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tilert Technology AB</title>
+<meta name="description" content="Tilert Technology AB – IT-konsulttjänster och mjukvaruutveckling. IT consulting and software development.">
+<style>
+  :root { --bg:#ffffff; --fg:#1a1d21; --muted:#5f6670; --line:#e4e6ea; --accent:#1f4fd1; --card:#f6f7f9; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#111317; --fg:#eceef1; --muted:#9aa1ab; --line:#2a2e35; --accent:#7fa2ff; --card:#181b20; }
+  }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--fg);
+    font:17px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+  main { max-width:680px; margin:0 auto; padding:64px 20px 48px; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:14px; padding:24px; margin-top:8px; }
+  h1 { font-size:2rem; line-height:1.2; margin:0 0 8px; letter-spacing:-0.01em; }
+  h2 { font-size:0.8rem; text-transform:uppercase; letter-spacing:0.08em; color:var(--muted); margin:0 0 12px; font-weight:600; }
+  .lead { color:var(--muted); margin:0 0 40px; }
+  section { border-top:1px solid var(--line); padding:28px 0; }
+  p { margin:0 0 12px; }
+  dl { display:grid; grid-template-columns:max-content 1fr; gap:6px 20px; margin:0; }
+  dt { color:var(--muted); }
+  dd { margin:0; }
+  a { color:var(--accent); }
+  footer { border-top:1px solid var(--line); padding-top:20px; color:var(--muted); font-size:0.85rem; }
+  @media (max-width:480px) { dl { grid-template-columns:1fr; gap:0; } dd { margin-bottom:10px; } }
+</style>
+</head>
+<body>
+<main>
+  <h1>Tilert Technology AB</h1>
+  <p class="lead">IT-konsulttjänster och mjukvaruutveckling · IT consulting and software development</p>
+
+  <section lang="sv">
+    <h2>Svenska</h2>
+    <p>Tilert Technology AB är ett svenskt aktiebolag som erbjuder IT-konsulttjänster och utvecklar mjukvara.</p>
+  </section>
+
+  <section lang="en">
+    <h2>English</h2>
+    <p>Tilert Technology AB is a Swedish limited company providing IT consulting services and developing software.</p>
+  </section>
+
+  <section>
+    <h2>Företagsuppgifter · Company details</h2>
+    <div class="card"><dl>
+      <dt>Företag · Company</dt><dd>Tilert Technology AB</dd>
+      <dt>Org.nr · Reg. no.</dt><dd>559402-5172</dd>
+      <dt>Adress · Address</dt><dd>Bergsgatan 27A<br>112 28 Stockholm<br>Sverige · Sweden</dd>
+      <dt>E-post · Email</dt><dd><a href="mailto:mattias@tilert.com">mattias@tilert.com</a></dd>
+    </dl></div>
+  </section>
+
+  <footer>© <span id="year">2026</span> Tilert Technology AB</footer>
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</main>
+</body>
+</html>
